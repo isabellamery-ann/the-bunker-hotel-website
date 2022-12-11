@@ -1,0 +1,239 @@
+/*
+- dark green - #1C2A2C
+- footer dark - #24382B
+*/
+
+/*
+Font: font-family: 'Raleway', sans-serif; 
+Font weight: 300;400;800;900 
+*/
+
+/**
+
+/* Temporary Styles */
+/** {
+    padding: 0.5rem;
+    border: 2px solid rgb(200, 200, 200)
+}
+
+html, body {
+    border: none;
+}
+
+h1, h2, h3,h4,h5,h6, p, a {
+    border: 2px solid rgba(255, 115, 0, 0.879)
+} */
+
+
+
+
+/* End temporary styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utility classes */
+
+.tall-50 {min-height: 50vh;}
+.tall-60 {min-height: 60vh;}
+.tall-70 {min-height: 70vh;}
+.tall-80 {min-height: 80vh;}
+.tall-90 {min-height: 90vh;}
+
+
+.padded     { padding: 5%; }
+.padded-lg  {padding: 10%;}
+.padded-1   {padding: 1rem; }
+.padded-2  {padding: 2rem; }
+
+.padded-r-l {
+    padding-left: 49%;
+    padding-right: 4%;
+  }
+
+
+
+.margin-b-0 {margin-bottom: 0;}
+
+.bg-dark     {background-color: #24382B}
+.bg-featured {background-color: #1C2A2C;}
+
+
+/* Typography */
+
+.light-text {color: white; }
+
+.left {text-align: left;}
+.center {text-align: center;}
+.right {text-align: right;}
+
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+h1, h2, h3,h4,h5,h6 {
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+h1 {font-size: 8rem;}
+h2 {font-size: 2.5rem;}
+h3 {font-size: 1.8rem;}
+
+.not-bold {font-weight: 400;}
+
+p, li {
+    font-weight: 300;
+    line-height: 1.4;
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;  
+
+}
+
+p:last-child,
+li:last-child {
+    margin-bottom: 0;
+}
+
+
+a {
+    color: inherit;
+}
+
+
+nav a {
+    text-decoration: none;
+      
+}
+
+.fab { 
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    color: white;}
+
+
+a:hover {
+        color: #b06816;
+    }
+
+    .uppercase { text-transform: uppercase;}
+
+    /* Footer */
+footer h2 {
+        font-size: 6rem;
+        line-height: 1;
+    }
+
+footer p {
+        margin-bottom: 0.2rem;
+        line-height: 1.1;
+    }
+
+.subtle {
+    opacity: 0.8;
+    font-size: 0.9rem;
+   }
+
+
+
+
+
+/* Background-images */
+.bg-image {
+    background-color:  #24382B;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('/images/the-bunker-1.jpg');
+}
+
+.bg-roof {
+    background-color:  #24382B;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('/images/the-bunker-5.jpg');
+}
+
+.bg-bed {
+    background-color:  #24382B;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('/images/the-bunker-1.jpg');
+}
+
+.bg-hallway {
+    background-color:  #24382B;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('/images/the-bunker-3.jpg');
+}
+
+.bg-lounge {
+    background-color:  #24382B;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('/images/the-bunker-4.jpg');
+}
+
+.bg-lounge-2 {
+    background-color:  #24382B;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('/images/the-bunker-2.jpg');
+}
+
+.bg-sheets {
+    background-color:  #24382B;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('/images/the-bunker-7.jpg');
+}
+
+.bg-map {
+    background-color:  #24382B;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('/images/the-bunker-6.png');
+    margin-right: -8px;
+    margin-left: -8px;
+    
+}
+
+.bg-padded {
+    padding-bottom: 34%;
+  }
+
+  .bg-pos {
+    background-position: 50% 1%;
+
+  }
+
+  /* SMALL Max width in pixels approximately 768 px*/
+  @media (max-width: 48em) {
+    .hide-sm { display: none;}
+   .flip-col-sm {flex-direction: column-reverse; }
+    h1 {font-size:  5rem;}
+    footer h2 { font-size: 3rem;}
+    .bg-pos {
+        background-image: none;
+        background-color: #1C2A2C;
+        min-height: 30;}
+
+}
+
+  
+ 
